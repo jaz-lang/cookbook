@@ -5,6 +5,7 @@ self-contained and runs in Google Colab — no local setup required.
 
 | Notebook | Topic | Time |
 | :------- | :---- | :--- |
+| [talk-to-your-data.ipynb](talk-to-your-data.ipynb) | Pass a DataFrame straight in, get back a typed report | ~5 min |
 | [01-quickstart.ipynb](01-quickstart.ipynb) | Your first agent: `jaz.invoke` and typed results | ~10 min |
 | [02-tools-and-libraries.ipynb](02-tools-and-libraries.ipynb) | Give agents typed tools with `Library` | ~15 min |
 | [03-recursive-agents.ipynb](03-recursive-agents.ipynb) | Nested agents and pool budgets | ~20 min |

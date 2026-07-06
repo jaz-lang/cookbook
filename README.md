@@ -15,6 +15,7 @@ This is the public home for JAZ's hands-on material. Install the package with
 
 | Notebook | Topic | Time |
 | :------- | :---- | :--- |
+| [Talk to your data](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/talk-to-your-data.ipynb) | Pass a DataFrame straight in, get back a typed report | ~5 min |
 | [Your first agent](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/01-quickstart.ipynb) | `jaz.invoke` and typed results | ~10 min |
 | [Tools & libraries](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/02-tools-and-libraries.ipynb) | Typed tools with `Library` | ~15 min |
 | [Recursive agents & budgets](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/03-recursive-agents.ipynb) | Nested agents and pool budgets | ~20 min |
