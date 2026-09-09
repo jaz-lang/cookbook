@@ -33,5 +33,5 @@ API key:
 
 JAZ routes to providers through LiteLLM, so set `OPENAI_API_KEY` (or `ANTHROPIC_API_KEY`)
 when prompted, or via Colab's secrets manager. The model is set with
-`jaz.configure(llm=LiteLLM(model='openai/gpt-5-mini'))` (import `LiteLLM` from `jaz.llm`) —
+`jaz.configure(llm=LiteLLM(model='openai/gpt-5.4-nano'))` (import `LiteLLM` from `jaz.llm`) —
 change it to suit.
