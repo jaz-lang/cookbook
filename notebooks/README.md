@@ -5,11 +5,13 @@ self-contained and runs in Google Colab — no local setup required.
 
 | Notebook | Topic | Time |
 | :------- | :---- | :--- |
-| [talk-to-your-data.ipynb](talk-to-your-data.ipynb) | Pass a DataFrame straight in, get back a typed report | ~5 min |
-| [01-quickstart.ipynb](01-quickstart.ipynb) | Your first agent: `jaz.invoke` and typed results | ~10 min |
-| [02-custom-tools.ipynb](02-custom-tools.ipynb) | Give agents typed tools (plain Python functions) | ~15 min |
-| [03-recursive-agents.ipynb](03-recursive-agents.ipynb) | Nested agents and pool budgets | ~20 min |
-| [04-hooks-and-tracing.ipynb](04-hooks-and-tracing.ipynb) | Logging, custom hooks, and tracing | ~20 min |
+| [01-talk-to-your-data.ipynb](01-talk-to-your-data.ipynb) | Hand over a real DataFrame, get a typed report, then watch the loop | ~10 min |
+| [02-inputs-and-tools.ipynb](02-inputs-and-tools.ipynb) | One mechanism for prompt, data and tools; controlling what the model sees | ~10 min |
+| [03-subagents-and-scope.ipynb](03-subagents-and-scope.ipynb) | Agents calling agents, and why `scope` exists | ~12 min |
+| [04-budgets-and-failure.ipynb](04-budgets-and-failure.ipynb) | Caps that fire, retries you can watch, and how runs fail | ~10 min |
+| [05-hooks-and-tracing.ipynb](05-hooks-and-tracing.ipynb) | Events in, effects out — the model behind every limit | ~10 min |
+
+Run them in order; each builds on the one before. Every notebook is committed with its outputs, so you can read the whole sequence without an API key.
 
 ## Open in Colab
 

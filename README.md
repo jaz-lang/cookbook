@@ -9,17 +9,20 @@ This is the public home for JAZ's hands-on material. Install the package with
 ## Contents
 
 - [`notebooks/`](notebooks/) — Google Colab tutorials. Each runs in your browser, no local
-  setup required.
+  setup required, and each ships with its outputs so you can read it without running
+  anything.
 
 ## Tutorials
 
-| Notebook | Topic | Time |
-| :------- | :---- | :--- |
-| [Talk to your data](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/talk-to-your-data.ipynb) | Pass a DataFrame straight in, get back a typed report | ~5 min |
-| [Your first agent](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/01-quickstart.ipynb) | `jaz.invoke` and typed results | ~10 min |
-| [Custom tools](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/02-custom-tools.ipynb) | Typed tools (plain Python functions) | ~15 min |
-| [Recursive agents & budgets](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/03-recursive-agents.ipynb) | Nested agents and pool budgets | ~20 min |
-| [Observability with hooks](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/04-hooks-and-tracing.ipynb) | Logging, custom hooks, tracing | ~20 min |
+| Notebook | What it covers | Time |
+| :------- | :------------- | :--- |
+| [Talk to your data](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/01-talk-to-your-data.ipynb) | Hand over a real DataFrame, get a typed report back, then watch the loop that produced it | ~10 min |
+| [Inputs and tools](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/02-inputs-and-tools.ipynb) | Why your prompt, your data and your tools are one mechanism — and how to control what the model sees | ~10 min |
+| [Subagents and scope](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/03-subagents-and-scope.ipynb) | Agents calling agents, why inputs stop at one call, and how `scope` reaches the whole tree | ~12 min |
+| [Budgets and failure](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/04-budgets-and-failure.ipynb) | Caps that actually fire, retries you can watch, and the two ways a run fails | ~10 min |
+| [Hooks and tracing](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/05-hooks-and-tracing.ipynb) | The extension model behind every limit you have used: events in, effects out | ~10 min |
+
+Run them in order — each one builds on the last.
 
 See [`notebooks/README.md`](notebooks/README.md) for how to run them.
 
