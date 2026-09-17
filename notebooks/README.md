@@ -5,11 +5,11 @@ self-contained and runs in Google Colab — no local setup required.
 
 | Notebook | Topic | Time |
 | :------- | :---- | :--- |
-| [01-talk-to-your-data.ipynb](01-talk-to-your-data.ipynb) | Hand over a real DataFrame, get a typed report, then watch the loop | ~10 min |
-| [02-inputs-and-tools.ipynb](02-inputs-and-tools.ipynb) | One mechanism for prompt, data and tools; controlling what the model sees | ~10 min |
-| [03-subagents-and-scope.ipynb](03-subagents-and-scope.ipynb) | Agents calling agents, and why `scope` exists | ~12 min |
-| [04-budgets-and-failure.ipynb](04-budgets-and-failure.ipynb) | Caps that fire, retries you can watch, and how runs fail | ~10 min |
-| [05-hooks-and-tracing.ipynb](05-hooks-and-tracing.ipynb) | Events in, effects out — the model behind every limit | ~10 min |
+| [01-inputs.ipynb](01-inputs.ipynb) | One kind of argument: prompts, tools, data and your own objects all go in the same way | ~10 min |
+| [02-subagents-and-scope.ipynb](02-subagents-and-scope.ipynb) | Agents calling agents, why inputs stop at one call, and how `scope` reaches the whole tree | ~10 min |
+| [03-hooks-events-and-effects.ipynb](03-hooks-events-and-effects.ipynb) | The extension model: typed returns, validation, budgets and limits are all one mechanism | ~12 min |
+| [04-configuration.ipynb](04-configuration.ipynb) | The LLM, the REPL and the protocol underneath — including what the agent is allowed to import | ~10 min |
+| [05-putting-it-together.ipynb](05-putting-it-together.ipynb) | One real analysis using all of it: a DataFrame in, a typed report with a chart out | ~12 min |
 
 Run them in order; each builds on the one before. Every notebook is committed with its outputs, so you can read the whole sequence without an API key.
 
