@@ -9,9 +9,11 @@ self-contained and runs in Google Colab — no local setup required.
 | [02-subagents-and-scope.ipynb](02-subagents-and-scope.ipynb) | Agents calling agents, why inputs stop at one call, and how `scope` reaches the whole tree | ~10 min |
 | [03-hooks-events-and-effects.ipynb](03-hooks-events-and-effects.ipynb) | The extension model: typed returns, validation, budgets and limits are all one mechanism | ~12 min |
 | [04-configuration.ipynb](04-configuration.ipynb) | The LLM, the REPL and the protocol underneath — including what the agent is allowed to import | ~10 min |
-| [05-putting-it-together.ipynb](05-putting-it-together.ipynb) | One real analysis using all of it: a DataFrame in, a typed report with a chart out | ~12 min |
+| [05-putting-it-together.ipynb](05-putting-it-together.ipynb) | The homepage's program, using all of it: a DataFrame and a web search in, a typed, checked report out | ~12 min |
 
-Run them in order; each builds on the one before. Every notebook is committed with its outputs, so you can read the whole sequence without an API key.
+Run them in order; each builds on the one before. They share one running example — the Palmer Penguins
+table, the same data as on the [jaz-lang.ai](https://jaz-lang.ai) homepage — so each new idea
+changes as little else as possible. Every notebook is committed with its outputs, so you can read the whole sequence without an API key.
 
 ## Open in Colab
 
