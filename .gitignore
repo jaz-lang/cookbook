@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local eval runs and scratch files for the notebooks (not part of the cookbook)
+/evals/
