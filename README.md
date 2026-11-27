@@ -16,13 +16,9 @@ This is the public home for JAZ's hands-on material. Install the package with
 
 | Notebook | What it covers | Time |
 | :------- | :------------- | :--- |
-| [Inputs: prompts, tools, and data](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/01-inputs.ipynb) | One kind of argument: prompts, tools, data and your own objects all go in the same way | ~10 min |
-| [Recursive subagents and scope](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/02-subagents-and-scope.ipynb) | Agents calling agents, why inputs stop at one call, and how `scope` reaches the whole tree | ~10 min |
-| [Hooks, events and effects](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/03-hooks-events-and-effects.ipynb) | The extension model: typed returns, validation, budgets and limits are all one mechanism | ~12 min |
-| [Configuration](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/04-configuration.ipynb) | The LLM, the REPL and the protocol underneath — including what the agent is allowed to import | ~10 min |
-| [Putting it together](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/05-putting-it-together.ipynb) | The homepage's program, using all of it: a DataFrame and a web search in, a typed, checked report out | ~12 min |
+| [Overview of JAZ](https://colab.research.google.com/github/jaz-lang/cookbook/blob/main/notebooks/00-overview.ipynb) | A tour of JAZ in one data-cleaning script: inputs, typed outputs, tools, subagents and scope, hooks, and configuration | ~10 min |
 
-Run them in order — each one builds on the last.
+More tutorials are on the way.
 
 See [`notebooks/README.md`](notebooks/README.md) for how to run them.
 
