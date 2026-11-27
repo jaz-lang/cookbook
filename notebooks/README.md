@@ -5,6 +5,7 @@ self-contained and runs in Google Colab — no local setup required.
 
 | Notebook | Topic | Time |
 | :------- | :---- | :--- |
+| [00-overview.ipynb](00-overview.ipynb) | A tour of JAZ in one data cleaning and analysis script: inputs, typed outputs, tools, subagents and scope, hooks, and configuration | ~10 min |
 | [01-inputs.ipynb](01-inputs.ipynb) | One kind of argument: prompts, tools, data and your own objects all go in the same way | ~10 min |
 | [02-subagents-and-scope.ipynb](02-subagents-and-scope.ipynb) | Agents calling agents, why inputs stop at one call, and how `scope` reaches the whole tree | ~10 min |
 | [03-hooks-events-and-effects.ipynb](03-hooks-events-and-effects.ipynb) | The extension model: typed returns, validation, budgets and limits are all one mechanism | ~12 min |
